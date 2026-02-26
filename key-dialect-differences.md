@@ -1,12 +1,11 @@
-PostgreSQL → SQL Server: Dialect Differences
+PostgreSQL -> SQL Server: Dialect Differences
 
-This document summarizes key differences encountered during migration from PostgreSQL to Microsoft SQL Server.
+This document summarizes key differences, encountered during migration from PostgreSQL to Microsoft SQL Server (MSSQL).
 
-The focus was on schema portability, procedural logic translation and behavior differences between engines.
-
-1. Auto-Increment Columns
-PostgreSQL	SQL Server
-bigserial / smallserial	BIGINT IDENTITY(1,1) / SMALLINT IDENTITY(1,1)
+Auto-Incrementation
+---
+PostgreSQL | SQL Server
+bigserial / smallserial | BIGINT IDENTITY(1,1) / SMALLINT IDENTITY(1,1)
 
 Impact:
 PostgreSQL implicitly creates a sequence for serial types.
