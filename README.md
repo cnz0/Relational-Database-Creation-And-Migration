@@ -3,7 +3,7 @@ Relational Database Engineering & Migration (PostgreSQL)
 - This project presents the design and implementation of a fully normalized relational database system built in PostgreSQL, with a strong focus on data engineering practices, such as performance benchmarking, access control, and cross-database migration readiness.
 - The database models a bow training management system and was developed with scalability, analytical workload, and migration considerations in mind.
 
-Project Structure:
+Project Structure:<br>
   relational-db-engineering/<br>
   |--- schema/<br>
   |--- data/<br>
@@ -69,7 +69,7 @@ Performance Engineering:
 Single-column indexes
 - Composite indexes aligned with workload
 
-Files:
+Files:<br>
 performance/query_under_performance_test.sql<br>
 performance/indexes.sql
 
@@ -87,22 +87,22 @@ Security configuration includes:
 - Controlled access through views for external users
 - Explicit role testing (SET ROLE, success/failure cases)
 
-Files:
-roles-and-security/roles_and_access.sql
+Files:<br>
+roles-and-security/roles_and_access.sql<br>
 roles-and-security/roles_testing.sql
 
 Migration:
 - The schema was prepared with cross-database portability in mind.
 - Differences between PostgreSQL and SQL Server were analyzed, including:
-  bigserial vs IDENTITY
-  timestamptz vs datetimeoffset
-  Schema handling and search path
-  Trigger behavior differences
-  Index syntax differences
+- bigserial vs IDENTITY
+- timestamptz vs datetimeoffset
+- Schema handling and search path
+- Trigger behavior differences
+- Index syntax differences
   
-Migration scripts and notes are located in: migration/
+Migration scripts and notes are located in: migration/ <br>
 
-This stage simulates a real-world database engine transition scenario.
+This stage simulates a real-world database engine transition scenario. <br>
 
 For more informations considering migration, see:
 - migration/dialect_differences.md
@@ -120,6 +120,6 @@ What I Learned:
 - Implementing role-based access control in SQL
 - Preparing schema for cross-engine migration
 
-Migration (PostgreSQL → SQL Server)
+Migration (PostgreSQL → SQL Server) <br>
 
 Migration treated as a logical transformation task rather than simple dump-and-load.
