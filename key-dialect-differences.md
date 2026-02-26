@@ -4,8 +4,9 @@ This document summarizes key differences, encountered during migration from Post
 
 Auto-Incrementation
 ---
-PostgreSQL | SQL Server
+PostgreSQL              | SQL Server
 bigserial / smallserial | BIGINT IDENTITY(1,1) / SMALLINT IDENTITY(1,1)
+---
 
 Impact:
 PostgreSQL implicitly creates a sequence for serial types.
