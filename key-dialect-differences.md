@@ -3,10 +3,10 @@ PostgreSQL -> SQL Server: Dialect Differences
 This document summarizes key differences, encountered during migration from PostgreSQL to Microsoft SQL Server (MSSQL).
 
 Auto-Incrementation
----
-PostgreSQL              | SQL Server
-bigserial / smallserial | BIGINT IDENTITY(1,1) / SMALLINT IDENTITY(1,1)
----
+|------------------------|-----------------------------------------------|
+|PostgreSQL              | SQL Server                                    |
+|bigserial / smallserial | BIGINT IDENTITY(1,1) / SMALLINT IDENTITY(1,1) |
+
 
 Impact:
 PostgreSQL implicitly creates a sequence for serial types.
