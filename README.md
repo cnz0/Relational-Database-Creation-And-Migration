@@ -5,13 +5,12 @@ Relational Database Engineering & Migration (PostgreSQL)
 
 Project Structure:
   relational-db-engineering/
-  │
-  ├── schema/
-  ├── data/
-  ├── analytics/
-  ├── performance/
-  ├── roles-and-security/
-  ├── migration/
+  |--- schema/
+  |--- data/
+  |--- analytics/
+  |--- performance/
+  |--- roles-and-security/
+  |--- migration/
 
 The project focuses on:
 - 3NF schema design and referential integrity
