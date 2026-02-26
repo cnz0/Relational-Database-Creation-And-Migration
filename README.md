@@ -5,11 +5,11 @@ Relational Database Engineering & Migration (PostgreSQL)
 
 Project Structure:
   relational-db-engineering/
-  |--- schema/
-  |--- data/
-  |--- analytics/
-  |--- performance/
-  |--- roles-and-security/
+  |--- schema/<br>
+  |--- data/<br>
+  |--- analytics/<br>
+  |--- performance/<br>
+  |--- roles-and-security/<br>
   |--- migration/
 
 The project focuses on:
@@ -70,7 +70,7 @@ Single-column indexes
 - Composite indexes aligned with workload
 
 Files:
-performance/query_under_performance_test.sql
+performance/query_under_performance_test.sql<br>
 performance/indexes.sql
 
 Key observations:
