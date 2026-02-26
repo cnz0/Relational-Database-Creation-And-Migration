@@ -4,7 +4,7 @@ Relational Database Engineering & Migration (PostgreSQL)
 - The database models a bow training management system and was developed with scalability, analytical workload, and migration considerations in mind.
 
 Project Structure:
-  relational-db-engineering/
+  relational-db-engineering/<br>
   |--- schema/<br>
   |--- data/<br>
   |--- analytics/<br>
